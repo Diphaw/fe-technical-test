@@ -1,6 +1,7 @@
+import Blog from "@/components/blog";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import Blog from "@/components/blog";
+import Works from "@/components/works";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Blog />
+      <Works />
     </div>
   );
 }
