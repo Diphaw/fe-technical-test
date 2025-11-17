@@ -3,7 +3,7 @@ import Button from "./ui/button";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-white pt-24 px-6 flex flex-col">
+    <section className="min-h-screen bg-white px-6 flex flex-col justify-center">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row justify-between items-center w-full">
         {/* Sisi Kiri */}
         <div className="py-12">
