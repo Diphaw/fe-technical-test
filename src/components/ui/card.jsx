@@ -1,3 +1,6 @@
-export default function Card({ children, className }) {
-  return <div className={className}>{children}</div>;
+export default function Card({ children, className, ...props }) {
+  return <div 
+  className={`block rounded-xl ${className}`}
+  {...props}
+  >{children}</div>;
 }
