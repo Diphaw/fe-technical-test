@@ -37,7 +37,7 @@ export default function Hero() {
         {/* Sisi Kanan */}
         <div className="w-64 h-64 rounded-full overflow-hidden">
           <Image
-            src="/hero.png"
+            src="/image/hero.png"
             alt="gambar hero"
             width={200}
             height={200}

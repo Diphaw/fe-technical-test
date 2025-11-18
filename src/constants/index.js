@@ -7,7 +7,21 @@ export const blog = [
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     },
     {
-      judul: "Creating pixel perfect icons in Figma",
+      judul: "Creating pixel prfect icons in Figma",
+      tanggal: "12 Feb 2020",
+      pencipta: "Figma, Icon Design",
+      deskripsi:
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    },
+    {
+      judul: "Making a design system from scratchh",
+      tanggal: "12 Feb 2020",
+      pencipta: "Design, Pattern",
+      deskripsi:
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    },
+    {
+      judul: "Creating pixel perfect icons in Figaa",
       tanggal: "12 Feb 2020",
       pencipta: "Figma, Icon Design",
       deskripsi:

@@ -7,14 +7,14 @@ export default function Blog() {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between">
           <h1 className="font-bold text-center md:text-left">Recent Posts</h1>
-          <a href="/blog" className="text-blue-400">
+          <a href="/blogs" className="text-blue-400">
             View All
           </a>
         </div>
 
         {/* card */}
         <div className="pt-6 grid gap-10 grid-cols-1 md:grid-cols-2">
-          {blog.map((blogs) => (
+          {blog.slice(2).map((blogs) => (
             <Card key={blogs.judul} className="p-4 bg-white flex flex-col">
               <div className="flex flex-col gap-4">
                 <h1 className="text-black font-bold text-2xl md:text-3xl">
