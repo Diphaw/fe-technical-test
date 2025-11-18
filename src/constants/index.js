@@ -49,5 +49,5 @@ export const blog = [
     {href: "/", label:"Home"},
     {href: "/works", label:"Works"},
     {href: "/blogs", label:"Blog"},
-    {href: "/contact", label:"Contacts"},
+    {href: "/contacts", label:"Contacts"},
 ];

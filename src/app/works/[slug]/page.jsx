@@ -15,7 +15,7 @@ export default async function WorkDetail({ params }) {
     <>
       <Header />
       <section className="min-h-screen py-6 px-6 flex flex-col justify-center">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto pt-10">
           <Card>
             <div className="">
               <div className="pb-6">
