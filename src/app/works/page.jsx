@@ -12,7 +12,7 @@ export default function Works() {
       <section className="min-h-screen bg-white flex flex-col justify-center px-6 py-6">
         <div className="max-w-7xl mx-auto w-full pt-10">
           <div className="">
-            <h1 className="font-bold text-black text-center md:text-left text-3xl md:text-4xl">
+            <h1 className="font-bold text-black text-left text-3xl md:text-4xl">
               Works
             </h1>
           </div>
