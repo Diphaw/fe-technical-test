@@ -6,7 +6,7 @@ export default function Blog() {
     <section className="min-h-[50vh] bg-blue-50 px-6 flex flex-col justify-center py-6">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between">
-          <h1 className="font-bold text-center md:text-left">Recent Posts</h1>
+          <h1 className="font-bold text-center md:text-left text-black">Recent Posts</h1>
           <a href="/blogs" className="text-blue-400">
             View All
           </a>
@@ -20,12 +20,12 @@ export default function Blog() {
                 <h1 className="text-black font-bold text-2xl md:text-3xl">
                   {blogs.judul}
                 </h1>
-                <span className="pt-4">
+                <span className="pt-4 text-black">
                   {blogs.tanggal} | {blogs.pencipta}
                 </span>
               </div>
               <div className="pt-4">
-                <p className="max-w-1xl">{blogs.deskripsi}</p>
+                <p className="max-w-1xl text-black">{blogs.deskripsi}</p>
               </div>
             </Card>
           ))}

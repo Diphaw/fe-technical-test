@@ -9,15 +9,15 @@ export default function Hero() {
         <div className="py-12">
           {/* Deskripsi */}
           <div className="space-y-2">
-            <h1 className="text-3xl md:text-5xl font-semibold text-center md:text-left">
+            <h1 className="text-3xl md:text-5xl font-semibold text-center md:text-left text-black">
               Hi, I am John,
             </h1>
-            <h1 className="text-3xl md:text-5xl font-semibold text-center md:text-left">
+            <h1 className="text-3xl md:text-5xl font-semibold text-center md:text-left text-black">
               Creative Technologist
             </h1>
           </div>
           <div className="py-4">
-            <p className="max-w-2xl text-center md:text-left">
+            <p className="max-w-2xl text-center md:text-left text-black">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.

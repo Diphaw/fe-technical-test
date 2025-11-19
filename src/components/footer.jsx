@@ -3,7 +3,7 @@ import Button from "./ui/button";
 
 export default function Footer() {
   return (
-    <footer className="min-h-[50vh] flex flex-col justify-center">
+    <footer className="min-h-[50vh] flex flex-col justify-center bg-white">
       <div className="flex flex-row justify-center gap-6">
         <Facebook className="w-10 h-10 "></Facebook>
         <Instagram className="w-10 h-10 "></Instagram>

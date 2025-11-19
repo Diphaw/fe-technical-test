@@ -32,7 +32,7 @@ export default function Header() {
           {/* tombol burger dan close */}
           <div className="md:hidden px-4 bg-gray">
             <Button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              {isMenuOpen ? <X /> : <Menu />}
+              {isMenuOpen ? <X className="text-black"/> : <Menu className="text-black"/>}
             </Button>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function Blog() {
       <Header />
       <section className="min-h-screen bg-white px-6 flex flex-col justify-center py-6">
         <div className="max-w-7xl mx-auto pt-10">
-          <h1 className="font-bold text-left text-3xl md:text-4xl">Blog</h1>
+          <h1 className="font-bold text-left text-3xl md:text-4xl text-black">Blog</h1>
 
           {/* card */}
           <div className="pt-10 grid gap-10 grid-cols-1">
@@ -19,12 +19,12 @@ export default function Blog() {
                   <h1 className="text-black font-bold text-2xl md:text-3xl">
                     {blogs.judul}
                   </h1>
-                  <span className="pt-4">
+                  <span className="pt-4 text-black">
                     {blogs.tanggal} | {blogs.pencipta}
                   </span>
                 </div>
                 <div className="pt-4">
-                  <p className="max-w-1xl">{blogs.deskripsi}</p>
+                  <p className="max-w-1xl text-black">{blogs.deskripsi}</p>
                 </div>
               </Card>
             ))}

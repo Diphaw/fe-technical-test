@@ -34,7 +34,7 @@ export default function Works() {
                     </div>
 
                     <div className="flex flex-col gap-4">
-                      <h1 className="font-bold text-2xl md:text-3xl">
+                      <h1 className="font-bold text-2xl md:text-3xl text-black">
                         {work.judul}
                       </h1>
                       <div className="flex gap-4">
@@ -43,7 +43,7 @@ export default function Works() {
                         </h2>
                         <h2 className="text-gray-400">{work.tema}</h2>
                       </div>
-                      <p className="">{work.deskripsi}</p>
+                      <p className="text-black">{work.deskripsi}</p>
                     </div>
                   </div>
                   <div className="w-full mt-6 h-px bg-gray-400"></div>
